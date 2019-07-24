@@ -35,7 +35,7 @@
             // btnConvert
             // 
             this.btnConvert.Image = global::PDF_Master.Properties.Resources.pdf_convert_logo1;
-            this.btnConvert.Location = new System.Drawing.Point(77, 43);
+            this.btnConvert.Location = new System.Drawing.Point(89, 43);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(150, 113);
             this.btnConvert.TabIndex = 0;
