@@ -84,13 +84,55 @@
     <Content Include="images\convert-logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="images\merge-logo-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="images\merge-logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\pdf-convert-logo.png" />
+    <None Include="images\merge-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="images\pdf-convert-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="images\pdf-split-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="images\pdf-split-logo-sm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="images\pdf-split-logo-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="images\pdf-protect-logo-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="images\ss-logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PDF Converter\PDFConverter\PDFConverter\PDFConverter.csproj">
+      <Project>{1349d462-b32e-4af5-98ae-f781601c26e4}</Project>
+      <Name>PDFConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PDF Merge\PDFmerge\PDFmerge\PDFmerge.csproj">
+      <Project>{48bdca43-e236-483a-a627-cfb779e01093}</Project>
+      <Name>PDFmerge</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PDF Protector\PDFProtector\PDFProtector\PDFProtector.csproj">
+      <Project>{1acbbd61-5fe9-4210-bb0d-ee430329c32e}</Project>
+      <Name>PDFProtector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PDF Split\PDF Split\PDF Split.csproj">
+      <Project>{c512ac03-4472-4908-9cbe-5adfd37bd663}</Project>
+      <Name>PDF Split</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SchuffSharp\SchuffSharp\SchuffSharp\SchuffSharp.csproj">
+      <Project>{5761947f-0e0a-49a4-b0a9-2c6c06efae0d}</Project>
+      <Name>SchuffSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

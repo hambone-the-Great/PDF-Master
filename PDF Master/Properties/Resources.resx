@@ -118,10 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pdf-convert-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pdf-convert-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pdf-split-logo-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pdf-split-logo-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf-split-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pdf-split-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pdf-convert-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pdf-convert-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf-split-logo-sm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pdf-split-logo-sm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merge-logo-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\merge-logo-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merge-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\merge-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf-convert-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pdf-convert-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf-protect-logo-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pdf-protect-logo-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

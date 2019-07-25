@@ -63,6 +63,26 @@ namespace PDF_Master.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap merge_logo {
+            get {
+                object obj = ResourceManager.GetObject("merge-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap merge_logo_100 {
+            get {
+                object obj = ResourceManager.GetObject("merge-logo-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pdf_convert_logo {
             get {
                 object obj = ResourceManager.GetObject("pdf-convert-logo", resourceCulture);
@@ -76,6 +96,46 @@ namespace PDF_Master.Properties {
         internal static System.Drawing.Bitmap pdf_convert_logo1 {
             get {
                 object obj = ResourceManager.GetObject("pdf-convert-logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_protect_logo_100 {
+            get {
+                object obj = ResourceManager.GetObject("pdf-protect-logo-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_split_logo {
+            get {
+                object obj = ResourceManager.GetObject("pdf-split-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_split_logo_100 {
+            get {
+                object obj = ResourceManager.GetObject("pdf-split-logo-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_split_logo_sm {
+            get {
+                object obj = ResourceManager.GetObject("pdf-split-logo-sm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
