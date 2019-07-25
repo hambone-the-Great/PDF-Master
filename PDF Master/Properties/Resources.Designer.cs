@@ -83,6 +83,16 @@ namespace PDF_Master.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pdf_convert_100 {
+            get {
+                object obj = ResourceManager.GetObject("pdf-convert-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pdf_convert_logo {
             get {
                 object obj = ResourceManager.GetObject("pdf-convert-logo", resourceCulture);
@@ -96,6 +106,16 @@ namespace PDF_Master.Properties {
         internal static System.Drawing.Bitmap pdf_convert_logo1 {
             get {
                 object obj = ResourceManager.GetObject("pdf-convert-logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_merge_100 {
+            get {
+                object obj = ResourceManager.GetObject("pdf-merge-100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -7,43 +7,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PDFConverter;
-using PDF_Split;
-using PDFmerge;
-using PDFProtector;
+using split = PDF_Split;
+using merge = PDFmerge;
+using convert = PDFConverter;
+using protect = PDFProtector;
 using SchuffSharp;
 
 namespace PDF_Master
 {
     public partial class Main : Form
     {
+
+        split.Main SplitForm = new split.Main();
+        merge.Main MergeForm = new merge.Main();
+        convert.Main ConvertForm = new convert.Main();
+        protect.Main Protectform = new protect.Main();        
+
         public Main()
         {
             InitializeComponent();
         }
 
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void BtnConvert_Click(object sender, EventArgs e)
         {
-            PDFConverter.Form1 frm = new PDFConverter.Form1();
-            frm.Show();
+            ConvertForm.Show();
         }
 
         private void BtnSplit_Click(object sender, EventArgs e)
         {
-            PDF_Split.Main frm = new PDF_Split.Main();
-            frm.Show(); 
+            SplitForm.Show();
         }
 
         private void BtnMerge_Click(object sender, EventArgs e)
         {
-            PDFmerge.Main frm = new PDFmerge.Main();
-            frm.Show();
+            MergeForm.Show();
         }
 
         private void BtnProtect_Click(object sender, EventArgs e)
         {
-            PDFProtector.PdfProtector frm = new PdfProtector();
-            frm.Show();
+            Protectform.Show();
         }
+
+
     }
 }

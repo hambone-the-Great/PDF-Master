@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,7 +42,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 181);
+            this.label1.Location = new System.Drawing.Point(52, 181);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(133, 17);
             this.label1.TabIndex = 1;
@@ -86,7 +87,7 @@
             // 
             // btnMerge
             // 
-            this.btnMerge.Image = global::PDF_Master.Properties.Resources.merge_logo_100;
+            this.btnMerge.Image = global::PDF_Master.Properties.Resources.pdf_merge_100;
             this.btnMerge.Location = new System.Drawing.Point(393, 65);
             this.btnMerge.Name = "btnMerge";
             this.btnMerge.Size = new System.Drawing.Size(150, 113);
@@ -106,7 +107,7 @@
             // 
             // btnConvert
             // 
-            this.btnConvert.Image = global::PDF_Master.Properties.Resources.pdf_convert_logo1;
+            this.btnConvert.Image = global::PDF_Master.Properties.Resources.pdf_convert_100;
             this.btnConvert.Location = new System.Drawing.Point(46, 65);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(150, 113);
@@ -128,9 +129,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConvert);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.Text = "PDF Master";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
