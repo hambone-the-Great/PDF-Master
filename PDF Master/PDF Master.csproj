@@ -87,6 +87,7 @@
     <Content Include="images\convert-logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="images\pdf-merge-logo-100.png" />
     <Content Include="pdf-master-icon.ico" />
     <None Include="images\merge-logo-100.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

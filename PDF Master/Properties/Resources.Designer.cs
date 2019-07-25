@@ -123,6 +123,16 @@ namespace PDF_Master.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pdf_merge_logo_100 {
+            get {
+                object obj = ResourceManager.GetObject("pdf-merge-logo-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pdf_protect_logo_100 {
             get {
                 object obj = ResourceManager.GetObject("pdf-protect-logo-100", resourceCulture);

@@ -87,7 +87,7 @@
             // 
             // btnMerge
             // 
-            this.btnMerge.Image = global::PDF_Master.Properties.Resources.pdf_merge_100;
+            this.btnMerge.Image = global::PDF_Master.Properties.Resources.pdf_merge_logo_100;
             this.btnMerge.Location = new System.Drawing.Point(393, 65);
             this.btnMerge.Name = "btnMerge";
             this.btnMerge.Size = new System.Drawing.Size(150, 113);
