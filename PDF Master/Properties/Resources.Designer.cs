@@ -63,49 +63,9 @@ namespace PDF_Master.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap merge_logo {
-            get {
-                object obj = ResourceManager.GetObject("merge-logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap merge_logo_100 {
-            get {
-                object obj = ResourceManager.GetObject("merge-logo-100", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap pdf_convert_100 {
             get {
                 object obj = ResourceManager.GetObject("pdf-convert-100", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pdf_convert_logo {
-            get {
-                object obj = ResourceManager.GetObject("pdf-convert-logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pdf_convert_logo1 {
-            get {
-                object obj = ResourceManager.GetObject("pdf-convert-logo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

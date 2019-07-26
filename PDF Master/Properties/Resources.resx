@@ -124,23 +124,11 @@
   <data name="pdf-split-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pdf-split-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pdf-convert-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pdf-convert-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pdf-split-logo-sm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pdf-split-logo-sm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="merge-logo-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\merge-logo-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="merge-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\merge-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pdf-merge-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pdf-merge-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pdf-convert-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pdf-convert-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pdf-protect-logo-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pdf-protect-logo-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
