@@ -11,7 +11,6 @@ using split = PDF_Split;
 using merge = PDFmerge;
 using convert = PDFConverter;
 using protect = PDFProtector;
-using SchuffSharp;
 
 namespace PDF_Master
 {
@@ -53,6 +52,10 @@ namespace PDF_Master
             Protectform.Show();
         }
 
-
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser frm = new browser();
+            frm.Show(); 
+        }
     }
 }
