@@ -11,6 +11,7 @@ using split = PDF_Split;
 using merge = PDFmerge;
 using convert = PDFConverter;
 using protect = PDFProtector;
+using rotate = PDF_Rotate;
 
 namespace PDF_Master
 {
@@ -20,7 +21,8 @@ namespace PDF_Master
         split.Main SplitForm = new split.Main();
         merge.Main MergeForm = new merge.Main();
         convert.Main ConvertForm = new convert.Main();
-        protect.Main Protectform = new protect.Main();        
+        protect.Main Protectform = new protect.Main();
+        rotate.Main RotateForm = new rotate.Main();
 
         public Main()
         {
@@ -56,6 +58,11 @@ namespace PDF_Master
         {
             browser frm = new browser();
             frm.Show(); 
+        }
+
+        private void BtnRotate_Click(object sender, EventArgs e)
+        {
+            RotateForm.Show();
         }
     }
 }

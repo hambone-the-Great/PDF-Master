@@ -33,12 +33,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnRotate = new System.Windows.Forms.Button();
             this.btnProtect = new System.Windows.Forms.Button();
             this.btnMerge = new System.Windows.Forms.Button();
             this.btnSplit = new System.Windows.Forms.Button();
             this.btnConvert = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label5 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,16 +74,43 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(600, 181);
+            this.label4.Location = new System.Drawing.Point(776, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(83, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Protect PDF";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(952, 24);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
+            // 
+            // btnRotate
+            // 
+            this.btnRotate.Image = global::PDF_Master.Properties.Resources.pdf_rotate_100;
+            this.btnRotate.Location = new System.Drawing.Point(568, 65);
+            this.btnRotate.Name = "btnRotate";
+            this.btnRotate.Size = new System.Drawing.Size(150, 113);
+            this.btnRotate.TabIndex = 9;
+            this.btnRotate.UseVisualStyleBackColor = true;
+            this.btnRotate.Click += new System.EventHandler(this.BtnRotate_Click);
+            // 
             // btnProtect
             // 
             this.btnProtect.Image = global::PDF_Master.Properties.Resources.pdf_protect_logo_100;
-            this.btnProtect.Location = new System.Drawing.Point(568, 65);
+            this.btnProtect.Location = new System.Drawing.Point(743, 65);
             this.btnProtect.Name = "btnProtect";
             this.btnProtect.Size = new System.Drawing.Size(150, 113);
             this.btnProtect.TabIndex = 6;
@@ -118,28 +147,22 @@
             this.btnConvert.UseVisualStyleBackColor = true;
             this.btnConvert.Click += new System.EventHandler(this.BtnConvert_Click);
             // 
-            // menuStrip1
+            // label5
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(787, 24);
-            this.menuStrip1.TabIndex = 8;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(605, 181);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 17);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Rotate PDF";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 270);
+            this.ClientSize = new System.Drawing.Size(952, 253);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnRotate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnProtect);
             this.Controls.Add(this.label3);
@@ -175,6 +198,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Button btnRotate;
+        private System.Windows.Forms.Label label5;
     }
 }
 

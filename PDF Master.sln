@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFProtector", "..\PDF Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Split", "..\PDF Split\PDF Split\PDF Split.csproj", "{C512AC03-4472-4908-9CBE-5ADFD37BD663}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Rotate", "..\PDF Rotate\PDF Rotate\PDF Rotate.csproj", "{A8DCEF16-7815-464E-990E-8445A4579FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,14 @@ Global
 		{C512AC03-4472-4908-9CBE-5ADFD37BD663}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C512AC03-4472-4908-9CBE-5ADFD37BD663}.Release|x86.ActiveCfg = Release|Any CPU
 		{C512AC03-4472-4908-9CBE-5ADFD37BD663}.Release|x86.Build.0 = Release|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Debug|x86.Build.0 = Debug|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Release|x86.ActiveCfg = Release|Any CPU
+		{A8DCEF16-7815-464E-990E-8445A4579FB5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
