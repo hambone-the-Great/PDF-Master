@@ -18,11 +18,11 @@ namespace PDF_Master
     public partial class Main : Form
     {
 
-        split.Main SplitForm;
-        merge.Main MergeForm;
+        split.PDF_Split_Main SplitForm;
+        merge.Merge_Main MergeForm;
         convert.Main ConvertForm;
         protect.Main Protectform;
-        rotate.Main RotateForm;
+        rotate.PDF_Rotate_Main RotateForm;
 
         public Main()
         {
@@ -31,32 +31,30 @@ namespace PDF_Master
 
         private void Main_Load(object sender, EventArgs e)
         {
-            
-            
-            ConvertForm = new convert.Main();
-            Protectform = new protect.Main();
-            RotateForm = new rotate.Main();
+                        
         }
 
         private void BtnConvert_Click(object sender, EventArgs e)
         {
+            ConvertForm = new convert.Main();
             ConvertForm.Show();
         }
 
         private void BtnSplit_Click(object sender, EventArgs e)
         {
-            SplitForm = new split.Main();
+            SplitForm = new split.PDF_Split_Main();
             SplitForm.Show();
         }
 
         private void BtnMerge_Click(object sender, EventArgs e)
         {
-            MergeForm = new merge.Main();
+            MergeForm = new merge.Merge_Main();
             MergeForm.Show();
         }
 
         private void BtnProtect_Click(object sender, EventArgs e)
         {
+            Protectform = new protect.Main();
             Protectform.Show();
         }
 
@@ -68,6 +66,7 @@ namespace PDF_Master
 
         private void BtnRotate_Click(object sender, EventArgs e)
         {
+            RotateForm = new rotate.PDF_Rotate_Main();
             RotateForm.Show();
         }
     }
