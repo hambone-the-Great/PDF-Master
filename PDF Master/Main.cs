@@ -67,7 +67,12 @@ namespace PDF_Master
         private void BtnRotate_Click(object sender, EventArgs e)
         {
             RotateForm = new rotate.PDF_Rotate_Main();
-            RotateForm.Show();
+            var result = RotateForm.ShowDialog(); 
+
+            if (result == DialogResult.OK)
+            {
+                RotateForm.Close(); 
+            }
         }
     }
 }
