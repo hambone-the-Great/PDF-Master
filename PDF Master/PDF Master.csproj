@@ -187,9 +187,6 @@
     <Content Include="html\images\ss-logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="html\welcome.htm">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="images\convert-logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
