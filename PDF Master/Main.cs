@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using split = PDF_Split;
 using merge = PDFmerge;
 using convert = PDFConverter;
 using protect = PDFProtector;
 using rotate = PDF_Rotate;
+
 
 namespace PDF_Master
 {
@@ -27,6 +21,7 @@ namespace PDF_Master
         public Main()
         {
             InitializeComponent();
+            
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -67,12 +62,7 @@ namespace PDF_Master
         private void BtnRotate_Click(object sender, EventArgs e)
         {
             RotateForm = new rotate.PDF_Rotate_Main();
-            var result = RotateForm.ShowDialog(); 
-
-            if (result == DialogResult.OK)
-            {
-                RotateForm.Close(); 
-            }
+            RotateForm.Show(); 
         }
     }
 }
